@@ -5,27 +5,27 @@ Build REST APIs simply and auto generate postman documents.
 
 
 
-###Getting started with config app 
+# Getting started with config app 
 ```
 src/v1/app.config.php
 ```
 
-###Public access for an endpoint url
+# Public access for an endpoint url
 ```
 public/[endpoint base]/[api version]/index.php
 ```
 
-###Endpoints base folder
+# Endpoints base folder
 ```
 src/v1/Endpoints/[ENDPOINT BASE]/[ENDPOINT NAME]
 ```
 
-###Sync with POSTMAN 
+# Sync with POSTMAN 
 ```
 Make command : make doc
 ```
 
-###Create new endpoint
+# Create new endpoint
 ```
 Make command : make endpoint
 - Select Version
@@ -39,5 +39,5 @@ Simply copy folder "src/v1/Endpoints/backend/boilerplate"
 ```
 
 
-###License
+# License
 The Dhru REST API framework is open-sourced software licensed under the MIT license.
