@@ -1,0 +1,29 @@
+ <IfModule mod_rewrite.c>
+
+    RewriteEngine On
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+    # Disable
+    Header unset expires
+    Header always unset "expires"
+    Header unset "expires"
+
+    Header unset connection
+    Header always unset "connection"
+    Header unset "connection"
+
+    Header unset cache-control
+    Header always unset "cache-control"
+    Header unset "cache-control"
+
+    Header unset ETag
+
+</IfModule>
