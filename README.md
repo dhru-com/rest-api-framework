@@ -39,4 +39,5 @@ Simply copy folder "src/v1/Endpoints/backend/boilerplate"
 ```
 
 
-
+###License
+The Dhru REST API framework is open-sourced software licensed under the MIT license.
