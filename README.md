@@ -1,7 +1,7 @@
 # rest-api-framework
 Build REST APIs simply and auto generate postman documents.
 
-[![Watch the video](https://i9.ytimg.com/vi/rwcHwYOsU7U/mq2.jpg?sqp=CKyx5P8F&rs=AOn4CLB0vKkHgHECpdtgtXibSplO2iRdVA)](https://youtu.be/rwcHwYOsU7U)
+[![Watch the video](https://i9.ytimg.com/vi/rwcHwYOsU7U/mq1.jpg?sqp=CPTF5v8F&rs=AOn4CLDypVsso9ix19BSj0a6ctTrDCkMiQ)](https://youtu.be/rwcHwYOsU7U)
 
 
 
